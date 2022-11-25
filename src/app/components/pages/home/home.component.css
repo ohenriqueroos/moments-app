@@ -1,0 +1,70 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container h1 {
+  margin-bottom: .5em;
+}
+
+.moments-container {
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.moment {
+  margin-bottom: 1em;
+  width: 32%;
+  text-align: center;
+}
+
+.moment img {
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.moment h3,
+.moment p {
+  margin-bottom: 1em;
+}
+
+.moment date {
+  font-size: .7em;
+  font-style: italic;
+}
+
+a {
+  padding: .3em .6em;
+  color: #dec129;
+}
+
+a:hover {
+  background-color: #efefef;
+}
+
+.search-container {
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.search-container form {
+  width: 30%;
+  position: relative;
+}
+
+.search-container fa-icon {
+  top: 8px;
+  left: 8px;
+  position: absolute;
+}
+
+.search-container input {
+  padding: .5em;
+  width: 100%;
+  text-align: center;
+}

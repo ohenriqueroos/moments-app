@@ -1,0 +1,65 @@
+.moment {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+img {
+  margin: 0 auto 1em;
+  max-width: 500px;
+}
+
+.about-moment,
+.actions {
+  padding: 1.2em;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.actions {
+  background-color: #eee;
+}
+
+.comments {
+  margin-bottom: 1em;
+  padding: 1.5em 0;
+  width: 100%;
+}
+
+/* Comentários */
+.comment-container {
+  padding: 1em 0;
+  text-align: left;
+  border-bottom: 1px solid #efefef;
+}
+
+.comment {
+  font-size: .9em;
+}
+
+.author {
+  font-size: .8em;
+}
+
+.comment-form {
+  margin-bottom: 3em;
+}
+
+.comment-form form {
+  margin-top: 1em;
+  margin-left: 0;
+  max-width: 300px;
+  text-align: left;
+}
+
+.author span {
+  font-weight: bold;
+}
